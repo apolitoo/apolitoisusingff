@@ -2,11 +2,8 @@
 
 /* Import your desired components first */
 
-
-/*@import url(chrome/blank_page_background.css);*/
-/*@import url(chrome/hide_toolbox_top_bottom_borders.css);*/
+@import url(chrome/hide_toolbox_top_bottom_borders.css);
 @import url(chrome/minimal_popup_scrollbars.css);
-/*@import url(chrome/minimal_text_fields.css);*/
 @import url(chrome/minimal_toolbarbuttons_v2.css);
 @import url(chrome/minimal_in-UI_scrollbars.css);
 @import url(chrome/urlbar_centered_text.css);
