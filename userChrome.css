@@ -1,0 +1,42 @@
+/* Example userChrome.css file */
+
+/* Import your desired components first */
+
+
+/*@import url(chrome/blank_page_background.css);*/
+/*@import url(chrome/hide_toolbox_top_bottom_borders.css);*/
+@import url(chrome/minimal_popup_scrollbars.css);
+/*@import url(chrome/minimal_text_fields.css);*/
+@import url(chrome/minimal_toolbarbuttons_v2.css);
+@import url(chrome/minimal_in-UI_scrollbars.css);
+@import url(chrome/urlbar_centered_text.css);
+@import url(chrome/window_control_fallback_for_custom_window_theme.css);
+@import url(chrome/button_effect_scale_onclick.css);
+@import url(chrome/compact_extensions_panel.css);
+@import url(chrome/compact_proton.css);
+@import url(chrome/menubar_in_main_toolbar.css);
+@import url(chrome/autohide_sidebar.css);
+
+
+/* Apply your custom modifications after imports */
+
+/* hides the native tabs */
+#TabsToolbar {
+  visibility: collapse;
+}
+/* hide TST header*/
+#sidebar-box[sidebarcommand="treestyletab_piro_sakura_ne_jp-sidebar-action"] #sidebar-header {
+  display: none;
+}
+
+#sidebar-box {
+  min-width: 100px !important;
+}
+
+/* leaves space for the window buttons*/
+/*#nav-bar {
+    margin-top: -8px;
+    margin-right: 74px;
+    margin-bottom: -4px;
+}*/
+
